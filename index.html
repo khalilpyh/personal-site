@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+    <script
+      src="https://kit.fontawesome.com/db2588620e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Yuhao Peng's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="image/logo.png" alt="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Service</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#footer" class="nav__link">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Yuhao Peng</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Software Developer
+      </p>
+      <img
+        src="image/yuhao-avatar.jpg"
+        alt="a picture of Yuhao Peng in black and white"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I Do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Front-end Development</h3>
+          <p>
+            Developing appealing and user-friendly web and mobile-based
+            applications. Writing web pages and providing website maintenance
+            and enhancements. Building CSS that are consistent across all
+            browsers and platforms and maintaining graphic standards and
+            branding throughout a product's interface.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>.Net Development</h3>
+          <p>
+            Building software using languages and technologies of the .Net
+            framework. Creating applications from scratch, configuring existing
+            systems and providing user support. Writing functional code with a
+            sharp eye for spotting defects.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+      <a href="#work" class="btn">see my work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Software Developer
+      </p>
+
+      <div class="anout-me__body">
+        <p>
+          An ambitious college graduate who recently obtained a Diploma in
+          Computer Programming and is dedicated to gaining real-world experience
+          to further develop acquired skills. Possessing a strong understanding
+          of relational and non-relational databases, as well as proficiency in
+          the .NET framework and ASP.NET technologies, I am eager to learn new
+          processes, programs, and procedures quickly in order to maximize my
+          contributions to user, team, and business success.
+        </p>
+        <p>
+          I'm passionate about R&B music, sci-fi movies, and action RPG video
+          games like World of Warcraft and DOTA2. I enjoy learning new things
+          and staying up-to-date with the latest trends.
+        </p>
+      </div>
+
+      <img
+        src="image/yuhao-second.jpg"
+        alt="Yuhao Peng's photo"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 1 -->
+        <a
+          href="https://goatrello.azurewebsites.net/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="image/goatrello.jpg"
+            alt="a picture of work table"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 2 -->
+        <a
+          href="https://mvcmusic20221206.azurewebsites.net/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="image/music-collection.jpg"
+            alt="a picture of a person holding a cassettes"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 3 -->
+        <a
+          href="https://github.com/khalilpyh/EsportsManagementMAUISolution"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="image/esports-maui.jpg"
+            alt="a picture of dices"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 4 -->
+        <a
+          href="https://khalilpyh.github.io/guess-my-number/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="image/guess-number.jpg"
+            alt="a picture of a question mark"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 5 -->
+        <a
+          href="https://github.com/khalilpyh/WPF_CurrencyConverter_API"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="image/currency-converter.jpg"
+            alt="a picture of coins"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 6 -->
+        <a
+          href="https://github.com/khalilpyh/WinForm_TicTacToe"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="image/tic-tac-toe.jpg"
+            alt="a picture of hand-draw tic tac toe game"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 7 -->
+        <a
+          href="https://khalilpyh.github.io/simon-game/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="image/simon-game.jpg"
+            alt="a picture of a classic simon game"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 8 -->
+        <a
+          href="https://khalilpyh.github.io/pig-game/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img
+            src="image/pig-game.jpg"
+            alt="a picture of two dices"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <a href="mailto:khalilpyh@gmail.com" class="footer__link"
+        >khalilpyh@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/khalilpyh">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/khalilpeng/"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/khalilpyh">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="script/index.js"></script>
+  </body>
+</html>
